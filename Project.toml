@@ -1,9 +1,17 @@
 name = "ProgressTMap"
 uuid = "582173b4-e96e-43f2-ad91-374f9af63bd1"
-authors = ["Oliver Dudgeon <22367286+OliverDudgeon@users.noreply.github.com> and contributors"]
-version = "1.0.0-DEV"
+authors = [
+  "Oliver Dudgeon <22367286+OliverDudgeon@users.noreply.github.com> and contributors",
+]
+version = "1.0.0"
+
+[deps]
+ChunkSplitters = "ae650224-84b6-46f8-82ea-d812ca08434e"
+ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 
 [compat]
+ChunkSplitters = "2.2.0"
+ProgressLogging = "0.1.4"
 julia = "1.6"
 
 [extras]
